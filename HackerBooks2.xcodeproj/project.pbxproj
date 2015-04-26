@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5E61B21AE39CF90073232C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61B11AE39CF90073232C /* main.m */; };
+		1E5E61B51AE39CF90073232C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61B41AE39CF90073232C /* AppDelegate.m */; };
+		1E5E61B71AE39CF90073232C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E61B61AE39CF90073232C /* Images.xcassets */; };
+		1E5E61BA1AE39CF90073232C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E61B81AE39CF90073232C /* LaunchScreen.xib */; };
+		1E5E61C61AE39CF90073232C /* HackerBooks2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61C51AE39CF90073232C /* HackerBooks2Tests.m */; };
+		1E5E61D11AE39F4D0073232C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61CF1AE39F4D0073232C /* Model.xcdatamodeld */; };
+		1E5E61D71AE405F50073232C /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61D41AE405F50073232C /* AGTCoreDataStack.m */; };
+		1E5E61D81AE405F50073232C /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61D61AE405F50073232C /* AGTCoreDataTableViewController.m */; };
+		1E5E61DC1AE4067C0073232C /* hackerInside.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E61DB1AE4067C0073232C /* hackerInside.png */; };
+		1E5E61E01AE406930073232C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E61DE1AE406930073232C /* icon.png */; };
+		1E5E61E11AE406930073232C /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E61DF1AE406930073232C /* iconSmall.png */; };
+		1E5E61E41AE40A6F0073232C /* RADHackerBooksBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61E31AE40A6F0073232C /* RADHackerBooksBaseClass.m */; };
+		1E5E61E81AE40BEB0073232C /* UIViewController+RADNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E61E71AE40BEB0073232C /* UIViewController+RADNavigation.m */; };
+		1E6061691AEBB4FB00325900 /* RADNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6061671AEBB4FB00325900 /* RADNoteViewController.m */; };
+		1E60616A1AEBB4FB00325900 /* RADNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6061681AEBB4FB00325900 /* RADNoteViewController.xib */; };
+		1E60616D1AEBCE4000325900 /* RADNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E60616C1AEBCE4000325900 /* RADNotesViewController.m */; };
+		1E6061711AEBEE3F00325900 /* RADImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E60616F1AEBEE3F00325900 /* RADImageViewController.m */; };
+		1E6061721AEBEE3F00325900 /* RADImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6061701AEBEE3F00325900 /* RADImageViewController.xib */; };
+		1E6061761AED2AE300325900 /* RADPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6061741AED2AE300325900 /* RADPDFViewController.m */; };
+		1E6061771AED2AE300325900 /* RADPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6061751AED2AE300325900 /* RADPDFViewController.xib */; };
+		1E60617A1AED6F2000325900 /* AGTAsyncImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6061791AED6F2000325900 /* AGTAsyncImage.m */; };
+		1E7FAA231AE4127500B30D4E /* _RADBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA1A1AE4127500B30D4E /* _RADBook.m */; };
+		1E7FAA241AE4127500B30D4E /* _RADImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA1C1AE4127500B30D4E /* _RADImage.m */; };
+		1E7FAA251AE4127500B30D4E /* _RADNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA1E1AE4127500B30D4E /* _RADNote.m */; };
+		1E7FAA261AE4127500B30D4E /* _RADPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA201AE4127500B30D4E /* _RADPdf.m */; };
+		1E7FAA271AE4127500B30D4E /* _RADTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA221AE4127500B30D4E /* _RADTag.m */; };
+		1E7FAA321AE412A300B30D4E /* RADBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA291AE412A300B30D4E /* RADBook.m */; };
+		1E7FAA331AE412A300B30D4E /* RADImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA2B1AE412A300B30D4E /* RADImage.m */; };
+		1E7FAA341AE412A300B30D4E /* RADNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA2D1AE412A300B30D4E /* RADNote.m */; };
+		1E7FAA351AE412A300B30D4E /* RADPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA2F1AE412A300B30D4E /* RADPdf.m */; };
+		1E7FAA361AE412A300B30D4E /* RADTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA311AE412A300B30D4E /* RADTag.m */; };
+		1E7FAA3D1AE4199E00B30D4E /* RADBookMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA3C1AE4199E00B30D4E /* RADBookMulti.m */; };
+		1E7FAA411AE41FB900B30D4E /* RADHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA401AE41FB900B30D4E /* RADHelpers.m */; };
+		1E7FAA451AE4263900B30D4E /* RADLibTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA441AE4263900B30D4E /* RADLibTableViewController.m */; };
+		1E7FAA491AE4265A00B30D4E /* RADBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA471AE4265A00B30D4E /* RADBookViewController.m */; };
+		1E7FAA4A1AE4265A00B30D4E /* RADBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7FAA481AE4265A00B30D4E /* RADBookViewController.xib */; };
+		1E7FAA501AE506D300B30D4E /* RADCoreDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FAA4F1AE506D300B30D4E /* RADCoreDataUtils.m */; };
+		1E7FAA521AE5724200B30D4E /* emptybook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E7FAA511AE5724200B30D4E /* emptybook.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5E61C01AE39CF90073232C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5E61A41AE39CF90073232C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5E61AB1AE39CF90073232C;
+			remoteInfo = HackerBooks2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5E61AC1AE39CF90073232C /* HackerBooks2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerBooks2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5E61B01AE39CF90073232C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5E61B11AE39CF90073232C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5E61B31AE39CF90073232C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E5E61B41AE39CF90073232C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E5E61B61AE39CF90073232C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HackerBooks2/Images.xcassets; sourceTree = "<group>"; };
+		1E5E61B91AE39CF90073232C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E5E61BF1AE39CF90073232C /* HackerBooks2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerBooks2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5E61C41AE39CF90073232C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5E61C51AE39CF90073232C /* HackerBooks2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerBooks2Tests.m; sourceTree = "<group>"; };
+		1E5E61D01AE39F4D0073232C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1E5E61D31AE405F50073232C /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		1E5E61D41AE405F50073232C /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		1E5E61D51AE405F50073232C /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		1E5E61D61AE405F50073232C /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		1E5E61DB1AE4067C0073232C /* hackerInside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackerInside.png; sourceTree = "<group>"; };
+		1E5E61DE1AE406930073232C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1E5E61DF1AE406930073232C /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
+		1E5E61E21AE40A6F0073232C /* RADHackerBooksBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADHackerBooksBaseClass.h; sourceTree = "<group>"; };
+		1E5E61E31AE40A6F0073232C /* RADHackerBooksBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADHackerBooksBaseClass.m; sourceTree = "<group>"; };
+		1E5E61E61AE40BEB0073232C /* UIViewController+RADNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RADNavigation.h"; sourceTree = "<group>"; };
+		1E5E61E71AE40BEB0073232C /* UIViewController+RADNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RADNavigation.m"; sourceTree = "<group>"; };
+		1E6061661AEBB4FB00325900 /* RADNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADNoteViewController.h; sourceTree = "<group>"; };
+		1E6061671AEBB4FB00325900 /* RADNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADNoteViewController.m; sourceTree = "<group>"; };
+		1E6061681AEBB4FB00325900 /* RADNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RADNoteViewController.xib; sourceTree = "<group>"; };
+		1E60616B1AEBCE4000325900 /* RADNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADNotesViewController.h; sourceTree = "<group>"; };
+		1E60616C1AEBCE4000325900 /* RADNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADNotesViewController.m; sourceTree = "<group>"; };
+		1E60616E1AEBEE3F00325900 /* RADImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADImageViewController.h; sourceTree = "<group>"; };
+		1E60616F1AEBEE3F00325900 /* RADImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADImageViewController.m; sourceTree = "<group>"; };
+		1E6061701AEBEE3F00325900 /* RADImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RADImageViewController.xib; sourceTree = "<group>"; };
+		1E6061731AED2AE300325900 /* RADPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADPDFViewController.h; sourceTree = "<group>"; };
+		1E6061741AED2AE300325900 /* RADPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADPDFViewController.m; sourceTree = "<group>"; };
+		1E6061751AED2AE300325900 /* RADPDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RADPDFViewController.xib; sourceTree = "<group>"; };
+		1E6061781AED6F2000325900 /* AGTAsyncImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTAsyncImage.h; sourceTree = "<group>"; };
+		1E6061791AED6F2000325900 /* AGTAsyncImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTAsyncImage.m; sourceTree = "<group>"; };
+		1E7FAA191AE4127500B30D4E /* _RADBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RADBook.h; sourceTree = "<group>"; };
+		1E7FAA1A1AE4127500B30D4E /* _RADBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RADBook.m; sourceTree = "<group>"; };
+		1E7FAA1B1AE4127500B30D4E /* _RADImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RADImage.h; sourceTree = "<group>"; };
+		1E7FAA1C1AE4127500B30D4E /* _RADImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RADImage.m; sourceTree = "<group>"; };
+		1E7FAA1D1AE4127500B30D4E /* _RADNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RADNote.h; sourceTree = "<group>"; };
+		1E7FAA1E1AE4127500B30D4E /* _RADNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RADNote.m; sourceTree = "<group>"; };
+		1E7FAA1F1AE4127500B30D4E /* _RADPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RADPdf.h; sourceTree = "<group>"; };
+		1E7FAA201AE4127500B30D4E /* _RADPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RADPdf.m; sourceTree = "<group>"; };
+		1E7FAA211AE4127500B30D4E /* _RADTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RADTag.h; sourceTree = "<group>"; };
+		1E7FAA221AE4127500B30D4E /* _RADTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RADTag.m; sourceTree = "<group>"; };
+		1E7FAA281AE412A300B30D4E /* RADBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADBook.h; sourceTree = "<group>"; };
+		1E7FAA291AE412A300B30D4E /* RADBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADBook.m; sourceTree = "<group>"; };
+		1E7FAA2A1AE412A300B30D4E /* RADImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADImage.h; sourceTree = "<group>"; };
+		1E7FAA2B1AE412A300B30D4E /* RADImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADImage.m; sourceTree = "<group>"; };
+		1E7FAA2C1AE412A300B30D4E /* RADNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADNote.h; sourceTree = "<group>"; };
+		1E7FAA2D1AE412A300B30D4E /* RADNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADNote.m; sourceTree = "<group>"; };
+		1E7FAA2E1AE412A300B30D4E /* RADPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADPdf.h; sourceTree = "<group>"; };
+		1E7FAA2F1AE412A300B30D4E /* RADPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADPdf.m; sourceTree = "<group>"; };
+		1E7FAA301AE412A300B30D4E /* RADTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADTag.h; sourceTree = "<group>"; };
+		1E7FAA311AE412A300B30D4E /* RADTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADTag.m; sourceTree = "<group>"; };
+		1E7FAA3B1AE4199E00B30D4E /* RADBookMulti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADBookMulti.h; sourceTree = "<group>"; };
+		1E7FAA3C1AE4199E00B30D4E /* RADBookMulti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADBookMulti.m; sourceTree = "<group>"; };
+		1E7FAA3E1AE41B8C00B30D4E /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		1E7FAA3F1AE41FB900B30D4E /* RADHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADHelpers.h; sourceTree = "<group>"; };
+		1E7FAA401AE41FB900B30D4E /* RADHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADHelpers.m; sourceTree = "<group>"; };
+		1E7FAA431AE4263900B30D4E /* RADLibTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADLibTableViewController.h; sourceTree = "<group>"; };
+		1E7FAA441AE4263900B30D4E /* RADLibTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADLibTableViewController.m; sourceTree = "<group>"; };
+		1E7FAA461AE4265A00B30D4E /* RADBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADBookViewController.h; sourceTree = "<group>"; };
+		1E7FAA471AE4265A00B30D4E /* RADBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADBookViewController.m; sourceTree = "<group>"; };
+		1E7FAA481AE4265A00B30D4E /* RADBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RADBookViewController.xib; sourceTree = "<group>"; };
+		1E7FAA4E1AE506D300B30D4E /* RADCoreDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADCoreDataUtils.h; sourceTree = "<group>"; };
+		1E7FAA4F1AE506D300B30D4E /* RADCoreDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADCoreDataUtils.m; sourceTree = "<group>"; };
+		1E7FAA511AE5724200B30D4E /* emptybook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybook.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5E61A91AE39CF90073232C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E61BC1AE39CF90073232C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5E61A31AE39CF90073232C = {
+			isa = PBXGroup;
+			children = (
+				1E5E61AE1AE39CF90073232C /* HackerBooks2 */,
+				1E5E61B81AE39CF90073232C /* LaunchScreen.xib */,
+				1E5E61B61AE39CF90073232C /* Images.xcassets */,
+				1E5E61AF1AE39CF90073232C /* Supporting Files */,
+				1E5E61C21AE39CF90073232C /* HackerBooks2Tests */,
+				1E5E61AD1AE39CF90073232C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5E61AD1AE39CF90073232C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61AC1AE39CF90073232C /* HackerBooks2.app */,
+				1E5E61BF1AE39CF90073232C /* HackerBooks2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5E61AE1AE39CF90073232C /* HackerBooks2 */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61DA1AE4061D0073232C /* AppDelegate */,
+				1E5E61DD1AE406830073232C /* Assets */,
+				1E5E61E51AE40B0C0073232C /* BaseClass */,
+				1E5E61E91AE40BF20073232C /* Categoryes */,
+				1E5E61D91AE406040073232C /* Controllers */,
+				1E5E61D21AE39F550073232C /* Models */,
+				1E7FAA3E1AE41B8C00B30D4E /* Config.h */,
+				1E7FAA421AE41FC100B30D4E /* Utils */,
+			);
+			path = HackerBooks2;
+			sourceTree = "<group>";
+		};
+		1E5E61AF1AE39CF90073232C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61B01AE39CF90073232C /* Info.plist */,
+				1E5E61B11AE39CF90073232C /* main.m */,
+			);
+			name = "Supporting Files";
+			path = HackerBooks2;
+			sourceTree = "<group>";
+		};
+		1E5E61C21AE39CF90073232C /* HackerBooks2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61C51AE39CF90073232C /* HackerBooks2Tests.m */,
+				1E5E61C31AE39CF90073232C /* Supporting Files */,
+			);
+			path = HackerBooks2Tests;
+			sourceTree = "<group>";
+		};
+		1E5E61C31AE39CF90073232C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61C41AE39CF90073232C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E5E61D21AE39F550073232C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FAA371AE412BA00B30D4E /* Machine */,
+				1E7FAA281AE412A300B30D4E /* RADBook.h */,
+				1E7FAA291AE412A300B30D4E /* RADBook.m */,
+				1E7FAA2A1AE412A300B30D4E /* RADImage.h */,
+				1E7FAA2B1AE412A300B30D4E /* RADImage.m */,
+				1E7FAA2C1AE412A300B30D4E /* RADNote.h */,
+				1E7FAA2D1AE412A300B30D4E /* RADNote.m */,
+				1E7FAA2E1AE412A300B30D4E /* RADPdf.h */,
+				1E7FAA2F1AE412A300B30D4E /* RADPdf.m */,
+				1E7FAA301AE412A300B30D4E /* RADTag.h */,
+				1E7FAA311AE412A300B30D4E /* RADTag.m */,
+				1E5E61D31AE405F50073232C /* AGTCoreDataStack.h */,
+				1E5E61D41AE405F50073232C /* AGTCoreDataStack.m */,
+				1E5E61CF1AE39F4D0073232C /* Model.xcdatamodeld */,
+				1E7FAA3B1AE4199E00B30D4E /* RADBookMulti.h */,
+				1E7FAA3C1AE4199E00B30D4E /* RADBookMulti.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1E5E61D91AE406040073232C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61D51AE405F50073232C /* AGTCoreDataTableViewController.h */,
+				1E5E61D61AE405F50073232C /* AGTCoreDataTableViewController.m */,
+				1E7FAA431AE4263900B30D4E /* RADLibTableViewController.h */,
+				1E7FAA441AE4263900B30D4E /* RADLibTableViewController.m */,
+				1E7FAA461AE4265A00B30D4E /* RADBookViewController.h */,
+				1E7FAA471AE4265A00B30D4E /* RADBookViewController.m */,
+				1E7FAA481AE4265A00B30D4E /* RADBookViewController.xib */,
+				1E6061661AEBB4FB00325900 /* RADNoteViewController.h */,
+				1E6061671AEBB4FB00325900 /* RADNoteViewController.m */,
+				1E6061681AEBB4FB00325900 /* RADNoteViewController.xib */,
+				1E60616B1AEBCE4000325900 /* RADNotesViewController.h */,
+				1E60616C1AEBCE4000325900 /* RADNotesViewController.m */,
+				1E60616E1AEBEE3F00325900 /* RADImageViewController.h */,
+				1E60616F1AEBEE3F00325900 /* RADImageViewController.m */,
+				1E6061701AEBEE3F00325900 /* RADImageViewController.xib */,
+				1E6061731AED2AE300325900 /* RADPDFViewController.h */,
+				1E6061741AED2AE300325900 /* RADPDFViewController.m */,
+				1E6061751AED2AE300325900 /* RADPDFViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1E5E61DA1AE4061D0073232C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61B31AE39CF90073232C /* AppDelegate.h */,
+				1E5E61B41AE39CF90073232C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1E5E61DD1AE406830073232C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FAA511AE5724200B30D4E /* emptybook.jpg */,
+				1E5E61DE1AE406930073232C /* icon.png */,
+				1E5E61DF1AE406930073232C /* iconSmall.png */,
+				1E5E61DB1AE4067C0073232C /* hackerInside.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1E5E61E51AE40B0C0073232C /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61E21AE40A6F0073232C /* RADHackerBooksBaseClass.h */,
+				1E5E61E31AE40A6F0073232C /* RADHackerBooksBaseClass.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		1E5E61E91AE40BF20073232C /* Categoryes */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E61E61AE40BEB0073232C /* UIViewController+RADNavigation.h */,
+				1E5E61E71AE40BEB0073232C /* UIViewController+RADNavigation.m */,
+			);
+			name = Categoryes;
+			sourceTree = "<group>";
+		};
+		1E7FAA371AE412BA00B30D4E /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FAA191AE4127500B30D4E /* _RADBook.h */,
+				1E7FAA1A1AE4127500B30D4E /* _RADBook.m */,
+				1E7FAA1B1AE4127500B30D4E /* _RADImage.h */,
+				1E7FAA1C1AE4127500B30D4E /* _RADImage.m */,
+				1E7FAA1D1AE4127500B30D4E /* _RADNote.h */,
+				1E7FAA1E1AE4127500B30D4E /* _RADNote.m */,
+				1E7FAA1F1AE4127500B30D4E /* _RADPdf.h */,
+				1E7FAA201AE4127500B30D4E /* _RADPdf.m */,
+				1E7FAA211AE4127500B30D4E /* _RADTag.h */,
+				1E7FAA221AE4127500B30D4E /* _RADTag.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		1E7FAA421AE41FC100B30D4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E6061781AED6F2000325900 /* AGTAsyncImage.h */,
+				1E6061791AED6F2000325900 /* AGTAsyncImage.m */,
+				1E7FAA3F1AE41FB900B30D4E /* RADHelpers.h */,
+				1E7FAA401AE41FB900B30D4E /* RADHelpers.m */,
+				1E7FAA4E1AE506D300B30D4E /* RADCoreDataUtils.h */,
+				1E7FAA4F1AE506D300B30D4E /* RADCoreDataUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5E61AB1AE39CF90073232C /* HackerBooks2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5E61C91AE39CF90073232C /* Build configuration list for PBXNativeTarget "HackerBooks2" */;
+			buildPhases = (
+				1E5E61A81AE39CF90073232C /* Sources */,
+				1E5E61A91AE39CF90073232C /* Frameworks */,
+				1E5E61AA1AE39CF90073232C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerBooks2;
+			productName = HackerBooks2;
+			productReference = 1E5E61AC1AE39CF90073232C /* HackerBooks2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5E61BE1AE39CF90073232C /* HackerBooks2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5E61CC1AE39CF90073232C /* Build configuration list for PBXNativeTarget "HackerBooks2Tests" */;
+			buildPhases = (
+				1E5E61BB1AE39CF90073232C /* Sources */,
+				1E5E61BC1AE39CF90073232C /* Frameworks */,
+				1E5E61BD1AE39CF90073232C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5E61C11AE39CF90073232C /* PBXTargetDependency */,
+			);
+			name = HackerBooks2Tests;
+			productName = HackerBooks2Tests;
+			productReference = 1E5E61BF1AE39CF90073232C /* HackerBooks2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5E61A41AE39CF90073232C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RAD;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Krainet;
+				TargetAttributes = {
+					1E5E61AB1AE39CF90073232C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1E5E61BE1AE39CF90073232C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1E5E61AB1AE39CF90073232C;
+					};
+				};
+			};
+			buildConfigurationList = 1E5E61A71AE39CF90073232C /* Build configuration list for PBXProject "HackerBooks2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5E61A31AE39CF90073232C;
+			productRefGroup = 1E5E61AD1AE39CF90073232C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5E61AB1AE39CF90073232C /* HackerBooks2 */,
+				1E5E61BE1AE39CF90073232C /* HackerBooks2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5E61AA1AE39CF90073232C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E61E11AE406930073232C /* iconSmall.png in Resources */,
+				1E6061771AED2AE300325900 /* RADPDFViewController.xib in Resources */,
+				1E5E61E01AE406930073232C /* icon.png in Resources */,
+				1E7FAA521AE5724200B30D4E /* emptybook.jpg in Resources */,
+				1E5E61DC1AE4067C0073232C /* hackerInside.png in Resources */,
+				1E6061721AEBEE3F00325900 /* RADImageViewController.xib in Resources */,
+				1E7FAA4A1AE4265A00B30D4E /* RADBookViewController.xib in Resources */,
+				1E5E61BA1AE39CF90073232C /* LaunchScreen.xib in Resources */,
+				1E60616A1AEBB4FB00325900 /* RADNoteViewController.xib in Resources */,
+				1E5E61B71AE39CF90073232C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E61BD1AE39CF90073232C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5E61A81AE39CF90073232C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E61B51AE39CF90073232C /* AppDelegate.m in Sources */,
+				1E5E61E41AE40A6F0073232C /* RADHackerBooksBaseClass.m in Sources */,
+				1E5E61D81AE405F50073232C /* AGTCoreDataTableViewController.m in Sources */,
+				1E60616D1AEBCE4000325900 /* RADNotesViewController.m in Sources */,
+				1E6061761AED2AE300325900 /* RADPDFViewController.m in Sources */,
+				1E7FAA501AE506D300B30D4E /* RADCoreDataUtils.m in Sources */,
+				1E7FAA251AE4127500B30D4E /* _RADNote.m in Sources */,
+				1E7FAA411AE41FB900B30D4E /* RADHelpers.m in Sources */,
+				1E7FAA351AE412A300B30D4E /* RADPdf.m in Sources */,
+				1E7FAA451AE4263900B30D4E /* RADLibTableViewController.m in Sources */,
+				1E7FAA321AE412A300B30D4E /* RADBook.m in Sources */,
+				1E5E61B21AE39CF90073232C /* main.m in Sources */,
+				1E7FAA341AE412A300B30D4E /* RADNote.m in Sources */,
+				1E6061691AEBB4FB00325900 /* RADNoteViewController.m in Sources */,
+				1E5E61D71AE405F50073232C /* AGTCoreDataStack.m in Sources */,
+				1E7FAA331AE412A300B30D4E /* RADImage.m in Sources */,
+				1E5E61E81AE40BEB0073232C /* UIViewController+RADNavigation.m in Sources */,
+				1E7FAA3D1AE4199E00B30D4E /* RADBookMulti.m in Sources */,
+				1E7FAA231AE4127500B30D4E /* _RADBook.m in Sources */,
+				1E7FAA261AE4127500B30D4E /* _RADPdf.m in Sources */,
+				1E5E61D11AE39F4D0073232C /* Model.xcdatamodeld in Sources */,
+				1E7FAA361AE412A300B30D4E /* RADTag.m in Sources */,
+				1E7FAA491AE4265A00B30D4E /* RADBookViewController.m in Sources */,
+				1E6061711AEBEE3F00325900 /* RADImageViewController.m in Sources */,
+				1E7FAA271AE4127500B30D4E /* _RADTag.m in Sources */,
+				1E7FAA241AE4127500B30D4E /* _RADImage.m in Sources */,
+				1E60617A1AED6F2000325900 /* AGTAsyncImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E61BB1AE39CF90073232C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E61C61AE39CF90073232C /* HackerBooks2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5E61C11AE39CF90073232C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5E61AB1AE39CF90073232C /* HackerBooks2 */;
+			targetProxy = 1E5E61C01AE39CF90073232C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E5E61B81AE39CF90073232C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5E61B91AE39CF90073232C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = HackerBooks2;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5E61C71AE39CF90073232C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E5E61C81AE39CF90073232C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5E61CA1AE39CF90073232C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackerBooks2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E5E61CB1AE39CF90073232C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackerBooks2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E5E61CD1AE39CF90073232C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackerBooks2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBooks2.app/HackerBooks2";
+			};
+			name = Debug;
+		};
+		1E5E61CE1AE39CF90073232C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackerBooks2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBooks2.app/HackerBooks2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5E61A71AE39CF90073232C /* Build configuration list for PBXProject "HackerBooks2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E61C71AE39CF90073232C /* Debug */,
+				1E5E61C81AE39CF90073232C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5E61C91AE39CF90073232C /* Build configuration list for PBXNativeTarget "HackerBooks2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E61CA1AE39CF90073232C /* Debug */,
+				1E5E61CB1AE39CF90073232C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5E61CC1AE39CF90073232C /* Build configuration list for PBXNativeTarget "HackerBooks2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E61CD1AE39CF90073232C /* Debug */,
+				1E5E61CE1AE39CF90073232C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E5E61CF1AE39F4D0073232C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E5E61D01AE39F4D0073232C /* Model.xcdatamodel */,
+			);
+			currentVersion = 1E5E61D01AE39F4D0073232C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E5E61A41AE39CF90073232C /* Project object */;
+}
